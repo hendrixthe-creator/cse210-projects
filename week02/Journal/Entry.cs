@@ -5,10 +5,10 @@ public class Entry
     public string _promptText;
     public string _entryText;
 
-    public void Dispaly()
+    public void Display()
     {
         Console.WriteLine($"Date:{_date}");
         Console.WriteLine($"Prompt:{_promptText}");
-        Console.WriteLine($"Resposne:{_entryText}");
+        Console.WriteLine($"Response:{_entryText}");
     }
 }
